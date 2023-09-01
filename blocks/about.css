@@ -25,9 +25,8 @@
 .about__title {
   z-index: 2;
   position: relative;
-  top: -19px;
   max-width: 251px;
-  margin: 0;
+  margin: -19px 0 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;

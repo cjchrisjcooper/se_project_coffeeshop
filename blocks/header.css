@@ -11,6 +11,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -22,6 +23,17 @@
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
+  z-index: 1;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
 }
 
 .header__description {
@@ -32,6 +44,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  z-index: 1;
 }
 
 .header__image {
@@ -52,12 +65,9 @@
   line-height: 20px;
   color: #838383;
   margin-top: auto;
+  z-index: 1;
 }
 
 .header__paragraph {
   margin: 0;
-}
-
-.header__address {
-  margin: auto 80px 40px auto;
 }
