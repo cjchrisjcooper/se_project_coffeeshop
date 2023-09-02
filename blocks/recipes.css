@@ -31,10 +31,11 @@
   line-height: 30px;
   color: #ffffff;
 }
-
+/* border was not specified in project 2, stage 2 brief so I placed border: none. */
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border: none;
 }
 
 .recipes__video-caption {
